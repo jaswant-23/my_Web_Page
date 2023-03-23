@@ -238,3 +238,8 @@ button:hover {
     width: 139px;
     padding-bottom: 60px;
 }
+.console{
+    height: 99px;
+    width: 75%;
+    border: 2px solid rgb(196, 21, 114);
+}
