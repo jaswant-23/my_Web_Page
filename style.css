@@ -1,0 +1,240 @@
+body {
+    background-image: url("image/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 99%;
+    height: 50px;
+    margin: 15px 10px 10px 10px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px 2px 2px 2px;
+    background-color: rgb(65, 133, 174);
+    border-radius: 70px;
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 117px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #e9e9e9;
+    /* color: #e2107d; */
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e2107d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    margin-left: -325px;
+    transform: translatey(-50%);
+    text-align: center;
+    color: #fff;
+    ;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.start_button{
+    width: 208px;
+    padding: 25px;
+    text-align: center;
+    margin: 20px 10px 12px 640px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    background-color: #0d1520;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.start_button:hover{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e81515;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+/* button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+} */
+.showoff {
+    height: 185px;
+    width: 97%;
+    /* border: 2px solid red; */
+    margin: 640px 2px 10px 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 5px;
+    padding-top: -33px;
+    padding-bottom: -62px;
+}
+.showoff img {
+    align-items: left;
+    height: 182px;
+    width: 285px;
+}
+.info {
+    height: 2103px;
+    width: 84%;
+    margin: 0px 2px 10px 129px;
+    overflow: auto;
+    background-color: white;
+}
+.info_content {
+    height: 384px;
+    width: 52%;
+    float: left;
+    margin-top: 80px;    
+    /* border: 2px solid red; */
+}
+.info_content h1{
+    font-size: 30px;
+    margin: 90px 0px 3px 40px;
+    color: rgb(7, 76, 118);
+}
+.info_content_main{
+    height: 73px;
+    width: 519px;
+    /* border: 2px solid red ; */
+}
+.Welcome_to {
+    height: 69px;
+    width: 193px;
+    /* border: 2px solid red; */
+    font-size: 39px;
+    float: left;
+    margin: 0px 10px 0px 20px;
+}
+.Real-state{
+    font-size: 42px;
+    color: orange;
+    align-items: right;
+}
+.info_content p{
+    margin: -10px 0px 0px 100px;
+}
+.Explore_more{
+    height: 50px;
+    width: 125px;
+   border: 2px solid red;
+   color: red;
+   background-color: #e2107d;
+}
+.info_content_image {
+    float: right;
+    height: 600px;
+    width: 45%;
+    /* border: 2px solid red; */
+}
+.info_content_image_1 {
+    height: 184px;
+    width: 156px;
+    padding: 110px 0px 0px 70px;
+}
+.info_content_image_2 {
+    height: 251px;
+    width: 253px;
+}
+.info_content_image_3 {
+    align-items: bottom;
+    height: 202px;
+    width: 274px;
+}
+.info_content_image_4 {
+    align-items: top;
+    height: 141px;
+    width: 139px;
+    padding-bottom: 60px;
+}
