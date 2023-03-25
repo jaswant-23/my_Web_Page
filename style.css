@@ -1,4 +1,7 @@
 body {
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
     background-image: url("image/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,7 +39,7 @@ body {
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 5px 20px;
+    margin: 5px 20px 0px 0px;
     position: relative;
 
 }
@@ -218,11 +221,21 @@ button:hover {
 }
 
 .Explore_more {
-    height: 50px;
-    width: 125px;
+    height: 37px;
+    width: 118px;
     border: 2px solid red;
     color: red;
+    margin: 20px 0px 0px 450px;
+    padding: 8px 0px 0px 1px;
     background-color: #e2107d;
+    border-radius: 20px;
+}
+
+.Explore_more button {
+    height: 31px;
+    width: 114px;
+    border-radius: 13px;
+    color: rgb(0, 0, 0);
 }
 
 .info_content_image {
@@ -259,9 +272,10 @@ button:hover {
 .console {
     height: 199px;
     width: 100%;
-    border: 2px solid rgb(196, 21, 114);
+    border: 2px solid rgb(156, 90, 125);
     margin-top: 550px;
-    background-color: rgb(98, 98, 136);
+    margin-left: 120px;
+    background-color: rgb(235, 235, 241);
 }
 
 .console p {
@@ -271,27 +285,27 @@ button:hover {
 .show_prop {
     height: 520px;
     width: 100%;
-    border: 2px solid rgb(180, 117, 2);
-    margin-top: 560px;
+    margin-top: 508px;
 }
 
 .show_prop1 {
-    font-size: 25px;
+    font-size: 27px;
     color: orange;
-    margin-left: 300px;
+    margin: 0px 0px 0px 300px;
 }
 
 .show_prop2 {
+    position: absolute;
     font-size: 25px;
     color: rgb(12, 20, 174);
-    margin: -18px 0px 0px 400px;
+    margin: 30px 0px 0px 400px;
 }
 
 .show_prop3 {
     height: 373px;
     width: 31%;
     border: 2px solid rgb(180, 117, 2);
-    margin: 0px 0px 0px 12px;
+    margin: 110px 0px 0px 12px;
 }
 
 .show_prop3 img {
@@ -345,7 +359,6 @@ button:hover {
 .show_prop31 {
     height: 373px;
     width: 31%;
-    border: 2px solid rgb(180, 117, 2);
     margin: -375px 0px 0px 428px;
 }
 
@@ -370,7 +383,6 @@ button:hover {
 .show_prop32 {
     height: 373px;
     width: 31%;
-    border: 2px solid rgb(180, 117, 2);
     margin: -375px 0px 0px 848px;
 }
 
@@ -391,23 +403,13 @@ button:hover {
     margin-left: 14px;
     margin-top: -7px;
 }
-.show_prop h3{
-    padding: 0px 0px 0px 0px;
+
+.show_prop h3 {
+    padding: 0px 0px 0px 20px;
 }
 
-
-/*
-.show_prop4{
-    height: 50px;
-    width: 20px;
-    display: inline;
-    border: 2px solid rgb(180, 117, 2);
-  
+.iconh {
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
 }
-.show_prop5{
-    height: 20px;
-    width: 20px;
-    display: inline;
-    border: 2px solid rgb(180, 117, 2);
-    
-} */
