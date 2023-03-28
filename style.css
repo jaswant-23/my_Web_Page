@@ -284,7 +284,7 @@ button:hover {
     font-size: 27px;
     color: orange;
     margin: 0px 0px 0px 300px;
-    box-shadow: black 0px 0px 0px 0px ;
+    box-shadow: black 0px 0px 0px 0px;
 }
 
 .show_prop2 {
@@ -292,7 +292,7 @@ button:hover {
     font-size: 25px;
     color: rgb(12, 20, 174);
     margin: 8px 0px 0px 400px;
-    box-shadow: black 0px 0px 0px 0px ;
+    box-shadow: black 0px 0px 0px 0px;
 }
 
 .show_prop3 {
@@ -329,7 +329,7 @@ button:hover {
     font-size: 17px;
     color: #fff;
     padding: 5px 0px 0px 10px;
-    box-shadow:#939393 10px 8px 5px;
+    box-shadow: #939393 10px 8px 5px;
 }
 
 .book_now {
@@ -340,7 +340,7 @@ button:hover {
     font-size: 17px;
     color: #fff;
     padding: 5px 0px 0px 10px;
-    box-shadow:#939393 10px 8px 5px;
+    box-shadow: #939393 10px 8px 5px;
 }
 
 .rate {
@@ -414,6 +414,7 @@ button:hover {
     align-items: end;
     background-color: aqua;
 }
+
 .console {
     height: 292px;
     width: 100%;
@@ -421,18 +422,21 @@ button:hover {
     margin-top: 96px;
     margin-left: 0px;
 }
+
 .console1 {
     margin-top: -14px;
     height: 328px;
     width: 50%;
     background-color: rgb(7, 11, 91);
 }
+
 .console1 h1 {
     padding-top: 72px;
     padding-left: 59px;
     color: #fff;
     font-size: 20px;
 }
+
 .console1 h2 {
     padding-top: 2px;
     padding-left: 59px;
@@ -440,13 +444,15 @@ button:hover {
     font-size: 28px;
     font-weight: bolder;
 }
+
 .console1 p {
     padding-top: 2px;
     padding-left: 59px;
     color: #fff;
-    font-size:16px;
+    font-size: 16px;
 }
-.console2 img{
+
+.console2 img {
     height: 312px;
     width: 49%;
     align-items: left;
@@ -455,7 +461,8 @@ button:hover {
     margin-bottom: 23px;
     box-shadow: 0px 0px 19px 5px;
 }
-.console_btn1{
+
+.console_btn1 {
     height: 34px;
     width: 101px;
     border: 2px solid #3dddf2;
@@ -464,7 +471,8 @@ button:hover {
     font-size: 22px;
     background-color: #3dddf2;
 }
-.console_btn2{
+
+.console_btn2 {
     height: 31px;
     width: 107px;
     font-size: 22px;
@@ -472,9 +480,78 @@ button:hover {
     margin: -45px 0px 0px 390px;
     padding: 8px 0px 0px 16px;
     background-color: #b8c3c2eb;
-    
+
 }
-.console1 a{
+
+.console1 a {
     text-decoration: none;
     color: #000000;
 }
+
+.navbar2 {
+    position: absolute;
+    height: 30px;
+    width: 762px;
+    margin-top: -18px;
+    margin-bottom: 0px;
+    margin-left: 707px;
+    margin-right: 0px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.navbar2 a {
+    color: #000000;
+    margin-left: 14px;
+    text-decoration: none;
+}
+
+.navbar2 div {
+    margin-top: -12px;
+    margin-left: 585px;
+}
+
+.navbar2 div a {
+    margin-left: 11px;
+}
+
+.ourservice {
+    height: 350px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 110px;
+}
+.ourservice h1{
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 10px 0px 0px 440px;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+.ourservice h2{
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 40px 0px 0px 450px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.ourservice1 {
+    height: 225px;
+    width: 32%;
+    border: 2px solid red;
+    margin: 110px 0px 0px 10px;
+  }
+  .ourservice2 {
+    height: 225px;
+    width: 32%;
+    border: 2px solid red;
+    margin: -230px 0px 0px 435px;
+  }
+
+  .ourservice3 {
+    height: 225px;
+    width: 32%;
+    border: 2px solid red;
+    margin: -230px 0px 0px 855px;
+  }
