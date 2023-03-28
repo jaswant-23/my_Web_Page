@@ -271,18 +271,7 @@ button:hover {
     padding-bottom: 60px;
 }
 
-.console {
-    height: 292px;
-    width: 100%;
-    border: 2px solid rgb(156, 90, 125);
-    margin-top: 30px;
-    margin-left: 0px;
-    background-color: rgb(239, 239, 239);
-}
 
-.console p {
-    padding: 50px;
-}
 
 .show_prop {
     height: 520px;
@@ -424,4 +413,68 @@ button:hover {
     width: 100%;
     align-items: end;
     background-color: aqua;
+}
+.console {
+    height: 292px;
+    width: 100%;
+    /* border: 2px solid rgb(156, 90, 125); */
+    margin-top: 96px;
+    margin-left: 0px;
+}
+.console1 {
+    margin-top: -14px;
+    height: 328px;
+    width: 50%;
+    background-color: rgb(7, 11, 91);
+}
+.console1 h1 {
+    padding-top: 72px;
+    padding-left: 59px;
+    color: #fff;
+    font-size: 20px;
+}
+.console1 h2 {
+    padding-top: 2px;
+    padding-left: 59px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.console1 p {
+    padding-top: 2px;
+    padding-left: 59px;
+    color: #fff;
+    font-size:16px;
+}
+.console2 img{
+    height: 312px;
+    width: 49%;
+    align-items: left;
+    margin-top: -322px;
+    margin-left: 637px;
+    margin-bottom: 23px;
+    box-shadow: 0px 0px 19px 5px;
+}
+.console_btn1{
+    height: 34px;
+    width: 101px;
+    border: 2px solid #3dddf2;
+    margin: 0px 0px 0px 50px;
+    padding: 5px 10px 0px 20px;
+    font-size: 22px;
+    background-color: #3dddf2;
+}
+.console_btn2{
+    height: 31px;
+    width: 107px;
+    font-size: 22px;
+    border: 2px solid #b8c3c2eb;
+    margin: -45px 0px 0px 390px;
+    padding: 8px 0px 0px 16px;
+    background-color: #b8c3c2eb;
+    
+}
+.console1 a{
+    text-decoration: none;
+    color: #000000;
 }
