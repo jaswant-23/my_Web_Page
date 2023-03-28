@@ -27,6 +27,7 @@ body {
     border: 2px 2px 2px 2px;
     background-color: rgb(65, 133, 174);
     border-radius: 70px;
+    position: sticky;
 
 }
 
@@ -229,6 +230,7 @@ button:hover {
     padding: 8px 0px 0px 1px;
     background-color: #e2107d;
     border-radius: 20px;
+    box-shadow: #939393 10px -10px 9px;
 }
 
 .Explore_more button {
@@ -270,12 +272,12 @@ button:hover {
 }
 
 .console {
-    height: 199px;
+    height: 292px;
     width: 100%;
     border: 2px solid rgb(156, 90, 125);
-    margin-top: 550px;
-    margin-left: 120px;
-    background-color: rgb(235, 235, 241);
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: rgb(239, 239, 239);
 }
 
 .console p {
@@ -289,23 +291,27 @@ button:hover {
 }
 
 .show_prop1 {
+    /* position: absolute; */
     font-size: 27px;
     color: orange;
     margin: 0px 0px 0px 300px;
+    box-shadow: black 0px 0px 0px 0px ;
 }
 
 .show_prop2 {
     position: absolute;
     font-size: 25px;
     color: rgb(12, 20, 174);
-    margin: 30px 0px 0px 400px;
+    margin: 8px 0px 0px 400px;
+    box-shadow: black 0px 0px 0px 0px ;
 }
 
 .show_prop3 {
     height: 373px;
     width: 31%;
-    border: 2px solid rgb(180, 117, 2);
+    /* border: 2px solid rgb(180, 117, 2); */
     margin: 110px 0px 0px 12px;
+    box-shadow: 0px 0px 9px 0px;
 }
 
 .show_prop3 img {
@@ -334,6 +340,7 @@ button:hover {
     font-size: 17px;
     color: #fff;
     padding: 5px 0px 0px 10px;
+    box-shadow:#939393 10px 8px 5px;
 }
 
 .book_now {
@@ -344,6 +351,7 @@ button:hover {
     font-size: 17px;
     color: #fff;
     padding: 5px 0px 0px 10px;
+    box-shadow:#939393 10px 8px 5px;
 }
 
 .rate {
@@ -354,12 +362,14 @@ button:hover {
     margin: -20px 0px 0px 10px;
     background-color: #e2107d;
     color: #fff;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .show_prop31 {
     height: 373px;
     width: 31%;
     margin: -375px 0px 0px 428px;
+    box-shadow: 0px 0px 9px 0px;
 }
 
 .show_prop31 img {
@@ -384,6 +394,7 @@ button:hover {
     height: 373px;
     width: 31%;
     margin: -375px 0px 0px 848px;
+    box-shadow: 0px 0px 9px 0px;
 }
 
 .show_prop32 img {
@@ -411,5 +422,6 @@ button:hover {
 .iconh {
     height: 150px;
     width: 100%;
+    align-items: end;
     background-color: aqua;
 }
