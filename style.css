@@ -24,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px 2px 2px 2px;
     background-color: rgb(65, 133, 174);
     border-radius: 70px;
     position: sticky;
@@ -175,7 +174,7 @@ button:hover {
 }
 
 .info {
-    height: 2103px;
+    height: 2455px;
     width: 84%;
     margin: 0px 2px 10px 129px;
     overflow: auto;
@@ -270,8 +269,6 @@ button:hover {
     width: 139px;
     padding-bottom: 60px;
 }
-
-
 
 .show_prop {
     height: 520px;
@@ -516,42 +513,127 @@ button:hover {
 }
 
 .ourservice {
-    height: 350px;
+    height: 450px;
     width: 100%;
     border: 2px solid red;
     margin-top: 110px;
 }
-.ourservice h1{
-    font-size: 20px;
-    border: 2px solid red;
-    padding: 10px 0px 0px 440px;
-    position: absolute;
-    margin: 0px 0px 0px 0px;
+
+.Our {
+    height: 37px;
+    width: 295px;
+    font-size: 29px;
+    /* border: 2px solid red; */
+    margin: 8px 0px 0px 410px;
+    display: flex;
+    padding-left: 102px;
+    color: #19736a;
+    ;
 }
-.ourservice h2{
-    font-size: 20px;
-    border: 2px solid red;
-    padding: 40px 0px 0px 450px;
-    margin: 0px 0px 0px 0px;
-    position: absolute;
+
+.explore_our {
+    height: 41px;
+    width: 256px;
+    font-size: 28px;
+    /* border: 2px solid red; */
+    margin: 10px 0px 0px 490px;
+    font-size: bold;
+    /* position: absolute; */
 }
 
 .ourservice1 {
-    height: 225px;
+    height: 257px;
     width: 32%;
-    border: 2px solid red;
-    margin: 110px 0px 0px 10px;
-  }
-  .ourservice2 {
-    height: 225px;
-    width: 32%;
-    border: 2px solid red;
-    margin: -230px 0px 0px 435px;
-  }
+    /* border: 2px solid red; */
+    margin: 40px 0px 0px 10px;
+    box-shadow: 0px 0px 9px 0px;
+}
 
-  .ourservice3 {
-    height: 225px;
+.ourservice2 {
+    height: 257px;
     width: 32%;
+    /* border: 2px solid red; */
+    margin: -256px 0px 0px 435px;
+    box-shadow: 0px 0px 9px 0px;
+}
+
+.ourservice3 {
+    height: 257px;
+    width: 30%;
+    /* border: 2px solid red; */
+    margin: -260px 0px 0px 855px;
+    box-shadow: 0px 0px 9px 0px;
+}
+
+.ourservice h1 {
+    font-size: 39px;
+    padding: 0px 0px 0px 40px;
+
+}
+
+.ourservice p {
+    padding: 0px 0px 0px 30px;
+
+}
+
+.ourservice i {
+    padding: 50px 0px 0px 160px;
+    color: blue;
+}
+
+.upperdiv {
+    height: 40px;
+    width: 75%;
+    border: 2px solid brown;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.botom {
+    height: 380px;
+    width: 100%;
+    background-color: rgb(45, 45, 151);
     border: 2px solid red;
-    margin: -230px 0px 0px 855px;
-  }
+    margin: 90px 0px 0px 0px;
+}
+
+.botom1 {
+    height: 219px;
+    width: 311px;
+    border: 2px solid red;
+    background-color: #fff;
+    margin-top: 94px;
+    margin-left: 13px;
+    color: #fff;
+}
+.botom a{
+    color: #fff;
+}
+
+.botom2 {
+    height: 214px;
+    width: 221px;
+    border: 2px solid red;
+    margin-top: -225px;
+    margin-left: 413px;
+    color: #fff;
+
+}
+
+.botom3 {
+    height: 215px;
+    width: 199px;
+    border: 2px solid red;
+    margin-top: -217px;
+    margin-left: 726px;
+    color: #fff;
+}
+
+.botom4 {
+    height: 215px;
+    width: 199px;
+    border: 2px solid red;
+    margin-top: -217px;
+    margin-left: 993px;
+    color: #fff;
+}
