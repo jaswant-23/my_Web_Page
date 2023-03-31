@@ -1,0 +1,33 @@
+body{
+    /* margin: 0px;
+    padding: 0px; */
+}
+.navbar{
+    width: 97%;
+    height: 11px;
+    margin: 15px 10px 0px 10px;
+    padding: 30px 0;
+    background-color: rgb(65, 133, 174);
+    border-radius: 70px;
+    border: 2px solid red;
+}
+.logo {
+    width: 70px;
+    cursor: pointer;
+    border-radius: 41px;
+    margin-top: -29px;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e2107d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
