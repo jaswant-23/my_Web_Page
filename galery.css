@@ -17,7 +17,38 @@ body{
     border-radius: 41px;
     margin-top: -29px;
 }
-.navbar ul li::after {
+.navbar ul {
+    font-size: 20px;
+    margin-top: -53px;
+    margin-bottom: 0px;
+    margin-left: 625px;
+    display: flex;
+    text-decoration: none;
+}
+.navbar ul a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-top: -72px;
+    margin-bottom: 0px;
+    margin-left: 63px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e2107d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+/* .navbar ul li:hover::after {
+    width: 100%;
+} */
+
+
+/* .navbar ul li::after {
     content: '';
     height: 3px;
     width: 0;
@@ -30,4 +61,4 @@ body{
 
 .navbar ul li:hover::after {
     width: 100%;
-}
+} */
