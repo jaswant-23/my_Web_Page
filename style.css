@@ -543,16 +543,17 @@ body {
     margin-top: 88px;
     margin-left: 13px;
     color: #000000;
+    border-radius: 25px;
 }
 
 .botom1 h1 {
-    font-size: 22px;
+    font-size: 32px;
     margin-top: -67px;
     margin-left: 102px;
 }
 
 .botom1 p {
-    font-size: 17px;
+    font-size: 29px;
     margin: 29px 0px 0px 30px;
 }
 
@@ -653,4 +654,20 @@ body {
     margin-right: 0px;
     position: absolute;
     color: #fff;
+}
+.content h1{
+    font-size: 169px;
+    margin-top: 150px;
+    margin-left: 107px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    color: #e21010;
+}
+.content p{
+    color: #eae0e0;
+    font-size: 43px;
+    margin-top: -78px;
+    margin-left: 369px;
+    margin-right: 0px;
+    margin-bottom: -440px;
 }
